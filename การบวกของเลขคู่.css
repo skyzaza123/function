@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Segoe UI", Tahoma, "Noto Sans Thai", sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+header p{
+    color: #888888;
+    font-size: 14px;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+label{
+    font-size: 14px;
+    color: #555555;
+}
+
+input{
+    padding: 12px 14px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2;
+}
+
+input:focus{
+    border-color: #222222;
+}
+
+button{
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #222222;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2;
+}
+
+button:hover{
+    background-color: #555555;
+}
+
+.result-section{
+    padding: 24px;
+    border: 1px solid #eeeeee;
+    border-radius: 12px;
+    background-color: #fafafa;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+#equationDisplay{
+    color: #666666;
+    font-size: 14px;
+    word-break: break-all;
+    margin-bottom: 8px;
+}
+
+#resultDisplay{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 48px;
+    text-align: center;
+    font-size: 12px;
+    color: #aaaaaa;
+}
